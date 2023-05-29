@@ -1,0 +1,55 @@
+
+
+/* .Diva:hover{
+    background-color: red;
+}
+.Diva:active{
+    background-color: yellowgreen;
+} */
+
+  
+
+.diva{
+    border: 3px solid black;
+    padding:20px;
+    /* display:  inline-flex; */
+    margin-left: 350px;  
+   
+    display: inline-flex;
+    flex-grow: unset;
+    
+  
+
+   
+ }
+
+div{
+    padding: 30px;
+    margin:20px;
+   
+    border-radius: 10px;
+    border: 2px double red;
+    
+ }
+.green{
+    background-color: green;
+   
+}
+.blue{
+    background-color: blue;
+    
+}
+.yellow{
+    background-color: yellow;
+    
+}
+
+.vel{
+  background-color: rgb(135, 188, 231);
+    border-radius: 60px;
+    padding: 60px;
+    display: inline-block;
+    
+    
+
+}

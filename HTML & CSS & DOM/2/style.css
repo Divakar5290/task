@@ -1,0 +1,36 @@
+
+*{
+  margin:0px;
+  padding:0px;
+  
+
+}
+body{
+   
+ padding-top: 230px;
+  background:#6cb642;
+}
+.Diva{
+  margin: auto;
+  width: 50%;
+}
+.Diva input,button{
+  width:75%;
+  box-sizing: border-box;
+  border-radius: 30px;
+  border:5px solid white;
+  font-size: 18px;
+  padding:10px;
+  color:white;
+}
+.Diva input:hover{ 
+  opacity: .9;
+}
+.Diva button{
+    width:25%;
+    background-color: #d83b0b;
+    color:rgb(1, 192, 250);
+    float: right;
+}
+.Diva button:hover{ 
+    opacity: .9;

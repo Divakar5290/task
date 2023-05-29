@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<div id="first">
+</div>
+
+<div id="second">
+</div>
+
+<body>
+    <script>
+        let header = document.createElement('h1');
+        header.textContent='This is a dynamic heading';
+
+
+        let paragraph = document.createElement('p');
+        paragraph.textContent='This a dynamic paragraph';
+        document.getElementById("first").append(header,paragraph);
+
+        let link =document.createElement('a');
+        link.href='https://www.google.com';
+        link.textContent='visit pannunga frd';
+        document.getElementById("second").append(link)
+        
+        let googlelogo=document.createElement('img');
+        googlelogo.src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/272px-Google_2015_logo.svg.png?20160213081640";
+        document.getElementById("second").append(googlelogo)
+    </script>
+</body>
+
+</html>
