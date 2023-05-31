@@ -1,0 +1,9 @@
+.taskone:hover{
+    color: yellow;
+}
+.diva:active{
+    color: green;
+}
+a:visited{
+    color :black
+}
